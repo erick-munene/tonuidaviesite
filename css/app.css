@@ -106,28 +106,31 @@ li a:hover:not(.active) {
 .one{
     height: 10%;
     background-color:grey;
-    border-right: 3em solid black;
+    border:1px solid white;
      color: white;
 
 }
 .two{
-     height: 10%;
+      height: 10%;
     background-color:grey;
-    border-right: 3em solid black;
+    border:1px solid white;
      color: white;
+
 
 }
 .three{
-     height: 10%;
+    height: 10%;
     background-color:grey;
-    border-right: 3em solid black;
+    border:1px solid white;
     color: white;}
+
 .four{
 
-     height: 10%;
+      height: 10%;
     background-color:grey;
-    border-right: 3em solid black;
+    border:1px solid white;
      color: white;
+
 }
 /*
 .row3{
@@ -159,7 +162,6 @@ padding-top: 1em;
     padding-top: 2em;
     padding-top: 3em;
     padding-bottom: 3em;
-    background-color: black;
     text-align: center;
     text-align: center;
     font-family: 'Muli', sans-serif;
