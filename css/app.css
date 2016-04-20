@@ -7,7 +7,7 @@
     height: 30rem;
 
 
-    text-align: right;
+    text-align: center;
     color: white;
     font-family: 'Indie Flower', cursive;
     font-size: 3rem;
@@ -154,6 +154,7 @@ padding-top: 1em;
 }
 .about{
     font-family: 'Poiret One', cursive;
+    text-align: center;
 
 }
 .middle{
