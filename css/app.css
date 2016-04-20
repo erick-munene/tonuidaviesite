@@ -180,3 +180,11 @@ padding-top: 1em;
 }
 
 
+
+.footer {
+
+    color: white;
+    background-color: #33adff;
+    height: 3em;
+    text-align: center
+}
