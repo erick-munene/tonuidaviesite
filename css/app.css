@@ -184,5 +184,6 @@ padding-top: 1em;
     color: white;
     background-color: #33adff;
     height: 3em;
-    text-align: center
+    text-align: center;
+    border: 2px solid white;
 }
