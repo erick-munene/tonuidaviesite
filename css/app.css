@@ -179,11 +179,8 @@ padding-top: 1em;
 
 
 
-.footer {
 
-    color: white;
+.footer {
     background-color: #33adff;
-    height: 3em;
-    text-align: center;
     border: 2px solid white;
 }
