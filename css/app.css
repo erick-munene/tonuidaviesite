@@ -264,3 +264,9 @@ a {
 #drone {
     background-color: black
 }
+
+#contact{
+    align-content: center;
+   text-align: center;
+    margin: 0 auto;
+}
