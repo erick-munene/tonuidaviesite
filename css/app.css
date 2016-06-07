@@ -12,6 +12,7 @@ figure.snip1478 {
   text-align: center;
   -webkit-perspective: 50em;
   perspective: 50em;
+    height: 10em
 }
 figure.snip1478 * {
   -webkit-box-sizing: padding-box;
@@ -252,3 +253,14 @@ a {
   padding-bottom: 0.5rem;
 }
 /*end of landing page*/
+
+.about {
+    align-content: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#drone {
+    background-color: black
+}
