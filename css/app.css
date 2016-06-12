@@ -1,3 +1,7 @@
+@import "compass/css3";
+
+@import "compass/css3";
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
 /*portfolio*/
 figure.snip1478 {
   font-family: 'Raleway', Arial, sans-serif;
@@ -19,6 +23,7 @@ figure.snip1478 * {
   box-sizing: padding-box;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+
 }
 figure.snip1478 img {
   max-width: 100%;
@@ -269,4 +274,5 @@ a {
     align-content: center;
    text-align: center;
     margin: 0 auto;
+    background-color: aliceblue
 }
