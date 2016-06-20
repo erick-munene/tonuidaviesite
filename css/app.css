@@ -1,0 +1,76 @@
+textarea {
+  resize: none;
+}
+
+.form-label {
+  font-size: 12px;
+  color: #5e9bfc;
+  margin: 0;
+  display: block;
+  opacity: 1;
+  -webkit-transition: .333s ease top, .333s ease opacity;
+  transition: .333s ease top, .333s ease opacity;
+}
+
+.form-control {
+  border-radius: 0;
+  border-color: #ccc;
+  border-width: 0 0 2px 0;
+  border-style: none none solid none;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #5e9bfc;
+}
+
+.js-hide-label {
+  opacity: 0;
+}
+
+.js-unhighlight-label {
+  color: #999
+}
+
+.btn-start-order {
+  background: 0 0 #ffffff;
+  border: 1px solid #2f323a;
+  border-radius: 3px;
+  color: #2f323a;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: inherit;
+  margin: 30px 0;
+  padding: 10px 50px;
+  text-transform: uppercase;
+  transition: all 0.25s ease 0s;
+width: 80%;
+        border-color: rgb(255, 87, 34);
+    width: 100%
+}
+
+
+.btn-start-order:hover{
+    background:#bf360c;
+    color: white
+}
+
+
+.btn-start-order:hover,
+.btn-start-order:active,
+.btn-start-order:focus {
+  border-color: #bf360c;
+  color: white;
+}
+.contact {
+    background: #fefefe;
+    background-image: url("https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2c11af10adb1fab79f9fb987b0a17038");
+    background-size: cover;
+    font-family: 'Poiret One', cursive;
+    color: white;
+   text-align: left;
+
+.contacttitle {
+    text-align: left;
+}

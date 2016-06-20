@@ -5,6 +5,8 @@ html,
 body {
     display: block;
     min-height: 100%;
+    font-family: 'Poiret One', cursive;
+
 }
 
 body {
@@ -68,7 +70,7 @@ h2 {
     position: fixed;
     background: rgb(255, 87, 34);
     width: 100vw;
-    max-width: 1400px;
+    max-width: 100%;
     z-index: 10;
     background-color:rgb(255, 87, 34);
 }
@@ -373,7 +375,7 @@ span.title{
     flex-direction: column;
     height: auto;   /*  Adjust height of the example */
     background-color: rgb(255,255,255);
-    width: 80%;
+    width: 100%;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 50px;
@@ -394,6 +396,7 @@ span.title{
     margin-top: 5vh;
     margin-bottom: 3vh;
     overflow: hidden;
+    text-align: center;
     
 }
 
@@ -406,7 +409,7 @@ span.title{
     font-weight: 400;
     text-align: justify;
 /*    background: #555;*/
-    max-width: 70%;  /* width od 'Abot' inside its box, so 100% means whole of its box*/
+    max-width: 100%;  /* width od 'Abot' inside its box, so 100% means whole of its box*/
 }
 
 .ab-col span{
@@ -422,6 +425,7 @@ span.title{
     text-transform: uppercase;
     font-size: 0.8em;
     letter-spacing: 0.3em;
+    font-weight: 700
 }
 
 span.about-title{
@@ -765,7 +769,7 @@ the texts e.g. ' < CODE > 'This shanges on its parent block shrinking to<CODE>*/
 /*  ===========================================================  */
 
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 100%){
     
     #lapytwister{
     transform:rotate(45deg);
@@ -776,7 +780,7 @@ the texts e.g. ' < CODE > 'This shanges on its parent block shrinking to<CODE>*/
     
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 100%){
     
     #burgerOn{
     display: block;
@@ -814,7 +818,7 @@ the texts e.g. ' < CODE > 'This shanges on its parent block shrinking to<CODE>*/
 }
 
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 100%){
  
      #burgerOn{
     display: block;
@@ -849,7 +853,7 @@ the texts e.g. ' < CODE > 'This shanges on its parent block shrinking to<CODE>*/
 
 
 
-@media screen and (max-width: 560px){
+@media screen and (max-width: 100%){
     
     
     #burgerOn{
@@ -932,7 +936,7 @@ the texts e.g. ' < CODE > 'This shanges on its parent block shrinking to<CODE>*/
 
 
 
-@media screen and (max-width: 380px){
+@media screen and (max-width: 100%){
     
     #burgerOn{
     display: block;
