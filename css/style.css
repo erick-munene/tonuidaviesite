@@ -14,7 +14,7 @@ body {
   -webkit-font-smoothing: antialiased;
     line-height: 50px;
     font-weight: 600;
-    background-color: rgb(255, 87, 34);
+    background-color: #050505;
 }
 
 ul{
@@ -29,7 +29,7 @@ ul{
     width: 100vw;
     display:block;
     margin: auto;
-    background: rgb(255, 87, 34); 
+    background:#050505;
 }
 
 .maxWidth{    
@@ -72,7 +72,8 @@ h2 {
     width: 100vw;
     max-width: 100%;
     z-index: 10;
-    background-color:rgb(255, 87, 34);
+    background-color:#050505;
+    color: rgb(255, 179, 0);
 }
 
 .navbar-main ul{
@@ -93,8 +94,9 @@ h2 {
     font-weight: 700;
     font-size: 0.8em;
     letter-spacing: 0.3em;
-    color: rgb(191, 54, 12);
-    background-color: rgb(255, 87, 34);
+    color:#FB0000;
+    background-color: #050505;
+    font-weight: 800
 }
 
 
@@ -114,7 +116,7 @@ body.open:before {
 body:before {
     content: "";
     position: fixed;
-    background-color: rgb(255, 87, 34);
+    background-color: #050505;
     width: 100%;
     overflow: hidden;
     top: 0;
@@ -325,7 +327,7 @@ a#burger-button.burger__button{
 
 .col span{
     z-index: 1;
-    background: rgb(255, 87, 34);
+    background: #050505;
 }
 
 
@@ -397,6 +399,8 @@ span.title{
     margin-bottom: 3vh;
     overflow: hidden;
     text-align: center;
+    height: 20rem;
+    padding-top: 5rem
     
 }
 
@@ -499,7 +503,7 @@ span.about-title{
 .logo a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #111;
+    color: rgb(255, 179, 0);
     justify-content: center;
     
 }
@@ -543,7 +547,7 @@ the texts e.g. ' < CODE > 'This shanges on its parent block shrinking to<CODE>*/
     flex-direction: column;
     align-items: center;
     height: auto;   /*  Adjust height of the example */
-    background: rgb(255, 87, 34);
+    background: #050505;
     color: white;
     max-width: 100%;
     padding: 100px;
@@ -586,7 +590,7 @@ the texts e.g. ' < CODE > 'This shanges on its parent block shrinking to<CODE>*/
 
 
 .bracket {
-    color: rgb(255,179,0);
+    color:#F80909;
     z-index: 1;
 }
 
@@ -711,7 +715,7 @@ the texts e.g. ' < CODE > 'This shanges on its parent block shrinking to<CODE>*/
 
 
 .footer{
-    background: rgb(191, 54, 12);
+    background:#050505;
     color: white;
     z-index: 9;
     
@@ -1071,7 +1075,8 @@ the texts e.g. ' < CODE > 'This shanges on its parent block shrinking to<CODE>*/
 
 
 .skills {
-    background-color: transparent;
+    background-color: white;
     text-align: center;
+    width: 100%
 
 }
