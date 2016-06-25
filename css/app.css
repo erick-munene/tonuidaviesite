@@ -470,9 +470,11 @@ hr {
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 10px 1%;
+  margin: 1x 1%;
+/*
   min-width: 230px;
   max-width: 315px;
+*/
   width: 100%;
   color: #ffffff;
   text-align: center;
@@ -550,9 +552,17 @@ hr {
 }
 
 
-/* Demo purposes only */
-
-body {
-  background-color: #212121;
-}
 /*end of folio*/
+
+.row {
+
+}
+
+.folio {
+    background-color: white;
+    width: 70
+}
+
+.content {
+    background-color: #111;
+}
