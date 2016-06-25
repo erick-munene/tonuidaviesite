@@ -1,5 +1,7 @@
 @import url('http://fonts.googleapis.com/css?family=Lato:300');
 @import url('http://weloveiconfonts.com/api/?family=entypo');
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(https://fonts.googleapis.com/css?family=Cardo);
 
 
 
@@ -460,3 +462,97 @@ hr {
 .clear {
   zoom: 1
 }
+
+
+/*folio*/
+.snip1501 {
+  font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  background-color: #000000;
+}
+
+.snip1501 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1501 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.snip1501 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 4px solid rgba(255, 255, 255, 0.05);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transform-origin: 100% 0%;
+  -ms-transform-origin: 100% 0%;
+  transform-origin: 100% 0%;
+}
+
+.snip1501 h2,
+.snip1501 p {
+  line-height: 1.5em;
+  margin: 0;
+}
+
+.snip1501 h2 {
+  font-family: 'Cardo', serif;
+  display: inline-block;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.snip1501 p {
+  padding: 8px 0 15px;
+}
+
+.snip1501 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1501:hover > img,
+.snip1501.hover > img {
+  opacity: 0.2;
+}
+
+.snip1501:hover figcaption,
+.snip1501.hover figcaption {
+  -webkit-transform-origin: 0% 100%;
+  -ms-transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+}
+
+
+/* Demo purposes only */
+
+body {
+  background-color: #212121;
+}
+/*end of folio*/
