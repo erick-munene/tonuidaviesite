@@ -42,9 +42,10 @@ textarea {
 
 .btn-start-order {
   background: 0 0 #ffffff;
-  border: 1px solid #2f323a;
+  border: 2px solid #2f323a;
   border-radius: 3px;
-  color: #2f323a;
+    border-color: yellow;
+  color: #111;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: inherit;
@@ -52,22 +53,23 @@ textarea {
   padding: 10px 50px;
   text-transform: uppercase;
   transition: all 0.25s ease 0s;
-width: 80%;
-        border-color: rgb(255, 87, 34);
+  width: 100%;
+   border-color: black;
     width: 100%
 }
 
 
 .btn-start-order:hover{
-    background:#bf360c;
-    color: white
+    background:#111;
+    color: yellow;
+
 }
 
 
 .btn-start-order:hover,
 .btn-start-order:active,
 .btn-start-order:focus {
-  border-color: #bf360c;
+  border-color: yellow;
   color: white;
 }
 .contact {
@@ -470,7 +472,7 @@ hr {
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 1x 1%;
+  margin: 0;
 /*
   min-width: 230px;
   max-width: 315px;
@@ -565,4 +567,12 @@ hr {
 
 .content {
     background-color: #111;
+}
+
+.portfolio {
+/*    width: 80%;*/
+    margin: 0 auto;
+    align-content: center;
+    text-align: center
+
 }
