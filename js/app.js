@@ -5,6 +5,9 @@ $(document).ready(function() {
  return 'placeholder' in i;
  })();
 
+
+
+
  // Hide labels by default if placeholders are supported
  if ($.support.placeholder) {
         $('.form-label').each(function(){
@@ -53,3 +56,28 @@ $(function() {
     }, 750);
   });
 });
+
+
+
+
+//mobile navigation
+
+
+
+var burger = document.getElementById("burger-button");
+
+function close_menu(){
+    document.body.classList.toggle("open");
+    burger.classList.toggle("open");
+}
+
+
+
+var burger = document.getElementById("burger-button");
+
+burger.addEventListener("click", function (e) {
+    e.preventDefault();
+    close_menu();
+
+});
+
