@@ -1,18 +1,3 @@
-var burger = document.getElementById("burger-button");
-
-function close_menu(){
-    document.body.classList.toggle("open");
-    burger.classList.toggle("open");
-}
-
-
-
-var burger = document.getElementById("burger-button");
-
-burger.addEventListener("click", function (e) {
-    e.preventDefault();
-    close_menu();
-});
 
 
 
