@@ -306,7 +306,7 @@ a#burger-button.burger__button{
 .titleCol { 
     display: flex;
     position: relative;
-    height: 450px;   /*  Adjust height of the example */
+    height: 480px;   /*  Adjust height of the example */
     color: white;
     right: -5%;
 }
