@@ -595,3 +595,16 @@ align-content: center;
     align-content: center;
     text-align: center
 }
+
+
+
+.thanks {
+    align-content: center;
+    text-align: center;
+    color: yellow;
+    padding-top: 10%;
+}
+
+.button {
+    padding-top: 2%;
+}
