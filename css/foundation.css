@@ -1500,8 +1500,11 @@ kbd {
       background-color: #5f5f5f;
       color: #fefefe; }
   .button.success {
-    background-color: #3adb76;
-    color: #fefefe; }
+    background-color: black;
+    color: #111;
+      border: 1px solid white;
+      color: yellow;
+}
     .button.success:hover, .button.success:focus {
       background-color: #22bb5b;
       color: #fefefe; }
